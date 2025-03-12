@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['dentigerous', 'okc', 'radicular']
+
+roboflow:
+  workspace: cyst-detection
+  project: mergedomerabi
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cyst-detection/mergedomerabi/dataset/8
